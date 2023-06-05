@@ -15,7 +15,7 @@ class CustomUserAdmin(UserAdmin):
         ('Informações pessoais', {'fields': ('first_name', 'last_name', 'phone')}),
         ('Permissões', {'fields': ('is_active', 'is_staff', 'is_superuser', 'groups', 'user_permissions')}),
         ('Datas importantes', {'fields': ('last_login', 'date_joined')}),
-    )
+    )   
 
 
 
